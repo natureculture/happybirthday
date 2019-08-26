@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/birthday/birthday",
+    "pages/gift/gift"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "生日快乐",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/birthday/birthday",
+      "text": "生日",
+      "iconPath": "images/cake_01.png",
+      "selectedIconPath": "images/cake_02.png"
+    },{
+      "pagePath": "pages/gift/gift",
+      "text": "礼物",
+      "iconPath": "images/gift_01.png",
+      "selectedIconPath": "images/gift_02.png"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

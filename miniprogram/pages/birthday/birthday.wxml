@@ -1,0 +1,16 @@
+<!--pages/birthday/birthday.wxml-->
+<text>{{message}}</text>
+<view>{{count}}</view>
+<button bindtap="makewish">许愿</button>
+<view wx:for="{{arr}}" wx:key="key">
+{{item}}
+</view>
+
+<view wx:for="{{object}}" wx:key="key">
+{{item.name}}
+</view>
+
+<view wx:if="{{isShow}}">呵呵</view>
+<view wx:else>哈哈</view>
+
+<button bindtap="click"  data-id="12">点我</button>
